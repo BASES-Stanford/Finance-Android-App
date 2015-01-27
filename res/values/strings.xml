@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReimbursementForm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="FirstandLastName">First and Last Name</string>
+    <string name="Email">Stanford Email</string>
+
+    <string-array name="teams_array">
+        <item>Challenge</item>
+        <item>Core</item>
+        <item>Ops</item>
+        <item>Professional Development</item>
+        <item>ETL</item>
+        <item>External Relations</item>
+        <item>Finance</item>
+        <item>Branding</item>
+        <item>Frosh Battalion</item>
+        <item>Business Development</item>
+        <item>Hackspace</item>
+    </string-array>
+
+    <string name="Team">Team</string>
+
+    <string-array name="Reimbursement_type_array">
+        <item>Reimbursement</item>
+        <item>Invoice Payment</item>
+        <item>Honorarium Payment</item>
+        <item>Advance Payment</item>
+    </string-array>
+
+    <string name="Requesttype">Type of Request</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="upload">Uplad Image</string>
+    <string name="uploadimage">Upload Image</string>
+    <string name="submit">submit</string>
+
+</resources>
