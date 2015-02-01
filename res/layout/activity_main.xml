@@ -96,30 +96,52 @@
 
       <requestFocus />
   </EditText>
-  
-<ImageView
-    android:id="@+id/ImageView01"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" 
-    android:layout_below="@+id/editText4">
-</ImageView>
-
-<Button
-    android:id="@+id/button2"
-    style="?android:attr/buttonStyleSmall"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignLeft="@+id/editText4"
-    android:layout_below="@+id/ImageView01"
-    android:text="@string/submit" />
 
 <Button
     android:id="@+id/button1"
     style="?android:attr/buttonStyleSmall"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_below="@+id/button2"
+    android:layout_below="@+id/takePhoto"
     android:text="@string/uploadimage" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/editText4"
+    android:text="NAME YOUR RECEIPT:" />
+
+<EditText
+      android:id="@+id/edit_receipt_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/editText4"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/textView1"
+      android:layout_marginTop="14dp"
+      android:ems="10"
+      android:hint="[LASTNAME]_[TEAM]_[DESCRIPTION]" >
+
+      <requestFocus />
+  </EditText>
+
+<Button
+    android:id="@+id/takePhoto"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/edit_receipt_name"
+    android:text="Take Photo of Receipt" />
+
+
+<Button
+    android:id="@+id/button2"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/button1"
+    android:text="@string/submit" />
 
 </RelativeLayout>
 </ScrollView>
